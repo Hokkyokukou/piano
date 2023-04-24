@@ -5,8 +5,6 @@ body {
     justify-content: center;
     height: 100vh;
     align-items: center;
-    /* justify content e align content non funzionano senza display flex
-    e align content non funzionerà senza height 100vh*/
 }
 
 #piano {
@@ -17,8 +15,7 @@ body {
 }
 
 .keys {
-    position: relative;/*useremo il posizionamento per posizionare 
-    le chiavi che vivono nel div con la classe dei tasti*/
+    position: relative;
 }
 .white_keys {
     display: flex;
@@ -29,8 +26,7 @@ body {
     display: flex;
 }
 
-
-.white_key{
+.white_key {
     width: 68px;
     height: 280px;
     background-color: #fff;
