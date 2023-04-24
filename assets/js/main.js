@@ -1,5 +1,5 @@
-import { playSound } from './audio.js';
-import { createDivBlack, createDivWhite } from './keys.js';
+import { playSound } from './modules/audio.js';
+import { createDivBlack, createDivWhite } from './modules/keys.js';
 
 const myPiano = () => {
 
