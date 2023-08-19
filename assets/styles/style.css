@@ -1,22 +1,21 @@
 body {
     margin: 0;
     padding: 0;
-    display: flex;
+    display: grid;
     justify-content: center;
     height: 100vh;
     align-items: center;
+    font-family: monospace;
+    text-align: center;
 }
 
 #piano {
     height: 290px;
     padding: 90px 30px 0 30px;
-    background-color: orangered;
+    background-color: purple;
     border-radius: 10px;
 }
 
-.keys {
-    position: relative;
-}
 .white_keys {
     display: flex;
 }
@@ -84,4 +83,8 @@ body {
 
 .key:hover {
     background-color: #ccc;
+}
+
+footer {
+    font-size: 20px;
 }
